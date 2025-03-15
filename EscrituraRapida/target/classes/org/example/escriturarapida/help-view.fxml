@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.escriturarapida.HelpController">
+   <children>
+      <Label layoutX="170.0" layoutY="50.0" prefHeight="30.0" prefWidth="310.0" text="Escritura Rápida - ¿Cómo Jugar?">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="80.0" layoutX="40.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/dom.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="80.0" layoutX="530.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/meteorito.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="25.0" layoutY="110.0" prefHeight="20.0" prefWidth="600.0" text="1.   Cada nivel muestra una palabra o frase aleatoria en la pantalla." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="135.0" prefHeight="20.0" prefWidth="600.0" text="2.   Escribe la palabra o frase correctamente (exactamente igual) antes de que se acabe el tiempo." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="160.0" prefHeight="20.0" prefWidth="600.0" text="3.   Cada vez que aciertes, el nivel aumentará y el juego se hará más dificil." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="185.0" prefHeight="20.0" prefWidth="600.0" text="4.   Si te equivocas al escribir, el sol se eclipsará un poco (25%). ¡Cuidado! Si se eclipsa por completo, pierdes." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="210.0" prefHeight="20.0" prefWidth="600.0" text="5.   Puedes controlar tu progreso en la parte superior izquierda, donde se muestra el nivel actual." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="235.0" prefHeight="20.0" prefWidth="600.0" text="6.   En la parte superior de la pantalla, verás un contador con el tiempo disponible para completar cada nivel." />
+      <Label alignment="CENTER" layoutX="25.0" layoutY="260.0" prefHeight="20.0" prefWidth="600.0" text="7.   ¡Demuestra tu rapidez y precisión para llegar tan lejos como sea posible!" />
+      <Button fx:id="buttonPlay" layoutX="265.0" layoutY="310.0" mnemonicParsing="false" onAction="#onActionButtonPlay" prefHeight="20.0" prefWidth="120.0" text="Jugar" />
+   </children>
+</AnchorPane>

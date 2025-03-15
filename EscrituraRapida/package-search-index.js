@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"org.example.escriturarapida","l":"org.example.escriturarapida"}];updateSearchResults();
